@@ -1,0 +1,12 @@
+.text {
+	/* margin: auto; */
+	color: red;
+	/* align-content: center; */
+	text-align: center;
+}
+
+.custom {
+	background: url(../img/pepepls.gif);
+	background-repeat: repeat;
+	background-size: 50px 50px;
+}
