@@ -1,0 +1,26 @@
+{
+  "name": "pinkish",
+  "version": "1.0.0",
+  "description": "Simple portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedin27/Pinkish.git"
+  },
+  "keywords": [
+    "portfolio",
+    "pinkish"
+  ],
+  "author": "Zeid Tisnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zedin27/Pinkish/issues"
+  },
+  "homepage": "https://github.com/zedin27/Pinkish#readme",
+  "dependencies": {
+    "animate.css": "^3.6.1"
+  }
+}
