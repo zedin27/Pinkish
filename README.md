@@ -5,12 +5,12 @@ Portfolio website for a friend :)
 
 ### 3D Objects
 - [ ] Slideshow
-- [ ] Render models
-- [ ] Title of the model
+- [x] Render models
+- [ ] Title of the models
 - [ ] Google Drive API(?)
 
 ### Website with navigation option
-- [ ] Twitch API for stream session w/ chat
+- [x] Twitch API for stream session w/ chat
 - [ ] About tab
 - [ ] Contact tab
 - [ ] Background image
@@ -19,5 +19,5 @@ Portfolio website for a friend :)
 ### Extra 
 - [ ] More research
 - [ ] Social media link/information option
-- [ ] Donations(?)
+- [ ] Donations option(?)
 - [ ] ?
