@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/zedin27/Pinkish#readme",
   "dependencies": {
-    "animate.css": "^3.6.1",
+    "animate.css": "^3.7.0",
     "browserify": "^16.2.3",
     "express": "^4.16.4",
     "three": "^0.97.0",
-    "webpack": "^4.21.0"
+    "webpack": "^4.28.0"
   }
 }
