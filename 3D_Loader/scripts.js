@@ -1,7 +1,7 @@
 var scene = new THREE.Scene();
 
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
-camera.position.z = 200;
+var camera = new THREE.PerspectiveCamera( 100, window.innerWidth/window.innerHeight, 0.1, 1000 );
+camera.position.z = 250;
 
 var renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize( window.innerWidth, window.innerHeight );
@@ -36,13 +36,9 @@ scene.add(backLight);
     // objLoader.setMaterials(materials);
     objLoader.setPath('/assets/object_models/');
     objLoader.load('jinx.obj', function (object) {
-
         scene.add(object);
-        object.position.y -= 0;
-
+        object.position.y -= 50;
     });
-//
-// });
 
 var animate = function () {
 	requestAnimationFrame( animate );
