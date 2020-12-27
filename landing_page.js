@@ -6,13 +6,12 @@ const router = express.Router();
 
 app.use(express.static('3D_Loader'));
 
-router.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/index.html'));
-  //__dirname : It will resolve to your project folder.
+router.get('/',function(req,res) {
+  res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-router.get('/jinx',function(req,res){
-  res.sendFile(path.join(__dirname+'/index1.html'));
+router.get('/jinx',function(req,res) {
+  res.sendFile(path.join(__dirname + '/placeholder_jinx.html'));
 });
 
 //add the router
