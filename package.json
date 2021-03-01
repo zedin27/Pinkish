@@ -28,7 +28,7 @@
     "next": "^10.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "three": "^0.97.0"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
